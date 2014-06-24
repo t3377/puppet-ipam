@@ -34,10 +34,6 @@ class ipam {
     }
   }
 
-# Import Zone Types  
-
-  import 'params'
-
 #  Slave and Primary Zones
   create_resources(primary_zone,$primary)
   create_resources(slave_zone,$slave)
